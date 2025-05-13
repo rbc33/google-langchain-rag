@@ -10,6 +10,7 @@ from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain_ollama import OllamaLLM
 
 from transformers import pipeline
+from transformers.models.longformer.modeling_longformer import LongformerEmbeddings
 
 
 ollama_model = "llama3.2:3b"
